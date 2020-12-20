@@ -1,0 +1,44 @@
+{
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cezaraugusto/github-partials.git"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "name": "github-partials",
+  "version": "0.0.0",
+  "description": "Download any subdirectory of a GitHub repository",
+  "bin": "./module.js",
+  "main": "module.js",
+  "author": {
+    "name": "Cezar Augusto",
+    "email": "boss@cezaraugusto.net",
+    "url": "https://cezaraugusto.net"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "files": [
+    "module.js"
+  ],
+  "keywords": [
+    "git",
+    "github",
+    "clone",
+    "subdirectory",
+    "subdirectories",
+    "folder",
+    "folders",
+    "file",
+    "files",
+    "some"
+  ],
+  "devDependencies": {
+    "jest": "^26.6.1"
+  },
+  "dependencies": {
+    "shelljs": "^0.8.4"
+  }
+}
